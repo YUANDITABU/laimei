@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/base_white">
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载中，稍等"
+
+        android:layout_centerInParent="true"
+        android:textColor="@color/base_threm"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/lin_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@id/tv_empty"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingVertical="30dp"
+        android:paddingTop="30dp">
+
+        <ProgressBar
+            android:id="@+id/iv_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/base_threm"
+            android:src="@mipmap/ic_null"/>
+        <ImageView
+            android:id="@+id/iv_empty"
+            android:layout_width="320dp"
+            android:layout_height="230dp"
+            android:visibility="gone"
+            android:indeterminateTint="@color/base_black"
+            android:src="@mipmap/icon_t_null" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

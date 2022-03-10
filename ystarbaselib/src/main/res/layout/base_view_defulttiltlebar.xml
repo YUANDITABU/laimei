@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cons_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/base_defult_black" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:maxLength="12"
+        android:ellipsize="end"
+        android:layout_centerInParent="true"
+        android:textColor="@color/base_black"
+        android:textSize="18sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="这是title" />
+
+    <LinearLayout
+        android:id="@+id/lin_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        >
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/base_defult_black" />
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="12"
+            android:ellipsize="end"
+            android:layout_centerInParent="true"
+            android:textColor="@color/base_black"
+            android:textSize="14sp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="这是title" />
+
+        <ImageView
+            android:id="@+id/iv_right1"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/base_defult_black" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/v_line"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/base_grayf2"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        ></View>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

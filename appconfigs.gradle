@@ -1,0 +1,73 @@
+ext {
+    //android 开发版本
+    android = [
+            //是告诉gradle 用哪个SDK编译版本 作用 我们可以使用到最新SDK的API方法和机制。
+            compileSdkVersion: 30,
+            //android构建工具的版本,在SDK Manager中安装选择版本，buildToolsVersion的版本需要>=CompileSdkVersion; 高版本的build-tools 可以构建低版本编译的android程序
+            buildToolsVersion: '30.0.3',
+            //支持到手机的最低版本
+            minSdkVersion    : 21,
+            //  目标软件开发版本 创建的Android项目使用哪个API版本 作用向前兼容     例如 targetSdkVersion : 30 就像做好30前的兼容
+            targetSdkVersion : 30,
+            applicationId    : "com.changyin.laimei",
+            versionCode      : 1,
+            versionName      : "1.0.0",
+    ]
+    androidx = [
+            "androidx-appcompat"                  : "androidx.appcompat:appcompat:1.2.0",
+            "androidx.recyclerview"               : "androidx.recyclerview:recyclerview:1.2.0",
+            "androidx.constraintlayout"           : "androidx.constraintlayout:constraintlayout:2.0.4",
+            "androidx.cardview"                   : "androidx.cardview:cardview:1.0.0",
+            "android.material"                    : "com.google.android.material:material:1.2.0",
+
+
+            "androidx.test.espresso:espresso-core": "androidx.test.espresso:espresso-core:3.3.0",
+            "androidx.lifecycleruntime"           : "androidx.lifecycle:lifecycle-runtime:2.2.0",//jetpack lifecycle
+            "androidx.lifecycleextensions"        : "androidx.lifecycle:lifecycle-extensions:2.2.0", //jetpack lifecycle
+            "room"                                : "androidx.room:room-runtime:2.2.5",
+            "room-compiler"                       : "androidx.room:room-compiler:2.2.5",
+            "room-rxjava2"                        : "androidx.room:room-rxjava2:2.2.5",
+            "viewpager2"                          : "androidx.viewpager2:viewpager2:1.0.0", //viewpager2
+            
+
+    ]
+    dependencies = [
+            //Arouter 组件化
+            "arouter-api"                  : "com.alibaba:arouter-api:1.5.0",
+            "arouter-compiler"             : "com.alibaba:arouter-compiler:1.2.2",
+            "gson"                         : "com.google.code.gson:gson:2.8.6",//Gson转化
+            "rxjava2"                      : "io.reactivex.rxjava2:rxjava:2.2.10",//rx
+            "rxpermissions"                : "com.github.tbruyelle:rxpermissions:0.10.2", //rx权限
+         //   "BaseRecyclerViewAdapterHelper": "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46",//adapter
+            "BaseRecyclerViewAdapterHelper": "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",//adapter
+
+            "immersionbar"                 : 'com.geyifeng.immersionbar:immersionbar:3.2.1',//状态栏
+            //"immersionbar-ktx"             : 'com.geyifeng.immersionbar:immersionbar-ktx:3.2.1',//状态栏
+            "glide"                        : "com.github.bumptech.glide:glide:4.12.0", //加载
+            "glide-compiler"               : "com.github.bumptech.glide:compiler:4.12.0",
+            "glide-transformations"        : 'jp.wasabeef:glide-transformations:4.0.1',
+
+            "swipebacklayout"              : 'me.imid.swipebacklayout.lib:library:1.1.0', //侧滑借宿
+
+            //---utils---------------------------------------//
+            "utilcodex"                    : 'com.blankj:utilcodex:1.30.6', //日常工具类
+            "multidex"                     : 'androidx.multidex:multidex:2.0.1', //
+            "rxbinding2"                   : 'com.jakewharton.rxbinding2:rxbinding:2.0.0',//view 绑定等
+
+            //下拉刷新加载更多框架
+            "refresh-layout-kernel"        : 'com.scwang.smart:refresh-layout-kernel:2.0.1', //核心必须依赖
+            "refresh-header"               : 'com.scwang.smart:refresh-header-classics:2.0.1',//经典刷新头
+            "refresh-material-header"               : 'com.scwang.smart:refresh-header-material:2.0.1',//经典刷新头
+            "refresh-footer"               : 'com.scwang.smart:refresh-footer-classics:2.0.1', //经典加载更多
+            "EasySwipeMenuLayout"          : "com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0", //侧滑删除
+            "circleDialog"                 : "com.mylhyl:circleDialog:5.3.7.1",//dialofframneet
+            "flexbox"                 : "com.google.android:flexbox:1.1.0",//dialofframneet
+            "protector" :'com.lahm.library:easy-protector-release:latest.release' ,//  检查模拟器
+            "majiajie"                 : "me.majiajie:pager-bottom-tab-strip:2.3.0X", //底部大排行
+            "FlycoTabLayout_Lib"                 : "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar", //tablyout
+            "roundedimageview"                 : "com.makeramen:roundedimageview:2.3.0", //圆形头像
+            "PictureSelector"                 : "io.github.lucksiege:pictureselector:v2.7.0-rc03" //图片选择
+    ]
+
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="hLine_1dp_cf2">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/base_grayf2</item>
+    </style>
+    <style name="hLine_1dp_ce1">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/base_graye1</item>
+    </style>
+    <style name="VLine_1dp_ce1">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:background">@color/base_graye1</item>
+    </style>
+    <style name="base_dialogWindowAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/common_bottomjoin</item>
+        <item name="android:windowExitAnimation">@anim/common_bootomout</item>
+    </style>
+
+</resources>

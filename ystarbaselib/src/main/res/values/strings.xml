@@ -1,0 +1,21 @@
+<resources>
+
+    <color name="base_white">#ffffff</color>
+    <color name="base_threm">#ff8000</color>
+    <color name="base_black">#000000</color>
+    <color name="base_grayf2">#f2f2f2</color>
+    <color name="base_graye1">#e1e1e1</color>
+    <color name="base_graye0">#e0e0e0</color>
+    <color name="base_gray66">#666666</color>
+    <color name="base_gray33">#333333</color>
+    <color name="base_gray99">#999999</color>
+    <color name="base_grayb5">#b5b5b5</color>
+    <color name="base_grayf0">#f0f0f0</color>
+    <color name="base_grayf6">#F6F6F6</color>
+    <color name="base_gray47">#474747</color>
+    <color name="base_graycc">#cccccc</color>
+    <color name="base_transparent">#00000000</color>
+    <color name="base_transparent20">#20000000</color>
+    <color name="base_tr14gray70">#84707070</color>
+
+</resources>

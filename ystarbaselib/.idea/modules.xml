@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../KotlinDemoi.iml" filepath="$PROJECT_DIR$/../KotlinDemoi.iml" group="KotlinDemoi" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" group="KotlinDemoi/app" />
+      <module fileurl="file://$PROJECT_DIR$/../commonlib/commonlib.iml" filepath="$PROJECT_DIR$/../commonlib/commonlib.iml" group="KotlinDemoi/commonlib" />
+      <module fileurl="file://$PROJECT_DIR$/ystarbaselib.iml" filepath="$PROJECT_DIR$/ystarbaselib.iml" group="KotlinDemoi/ystarbaselib" />
+      <module fileurl="file://$PROJECT_DIR$/../ystarnetworklib/ystarnetworklib.iml" filepath="$PROJECT_DIR$/../ystarnetworklib/ystarnetworklib.iml" group="KotlinDemoi/ystarnetworklib" />
+    </modules>
+  </component>
+</project>
